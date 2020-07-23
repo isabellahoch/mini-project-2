@@ -14,12 +14,21 @@ class SecondViewController: UIViewController {
     
     @IBAction func buttonOneTapped(_ sender: Any) {
         emojiLabel.text = "💙"
+        let alertController = UIAlertController(title: "amazing choice!", message: "💙", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "thanks😌", style: .default))
+        self.present(alertController, animated: true, completion: nil)
     }
     @IBAction func buttonTwoTapped(_ sender: Any) {
         emojiLabel.text = "💚"
+        let alertController = UIAlertController(title: "incredible choice!", message: "💚", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "thanks😌", style: .default))
+        self.present(alertController, animated: true, completion: nil)
     }
     @IBAction func buttonThreeTapped(_ sender: Any) {
         emojiLabel.text = "💜"
+        let alertController = UIAlertController(title: "wonderful choice!", message: "💜", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "thanks😌", style: .default))
+        self.present(alertController, animated: true, completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
