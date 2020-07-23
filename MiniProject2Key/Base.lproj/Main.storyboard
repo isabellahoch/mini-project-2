@@ -65,7 +65,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="➡️"/>
                                 <connections>
-                                    <segue destination="yI2-9c-sRQ" kind="showDetail" id="3V7-hp-c81"/>
+                                    <segue destination="yI2-9c-sRQ" kind="show" id="3V7-hp-c81"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -164,7 +164,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <state key="normal" title="➡️"/>
                                 <connections>
-                                    <segue destination="CDP-oQ-64o" kind="showDetail" id="zdv-rD-XUA"/>
+                                    <segue destination="CDP-oQ-64o" kind="show" id="zdv-rD-XUA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -220,8 +220,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="stw-g1-zLb">
-                                <rect key="frame" x="207" y="708" width="0.0" height="0.0"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="stw-g1-zLb">
+                                <rect key="frame" x="153" y="588.5" width="108" height="119.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

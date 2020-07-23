@@ -12,16 +12,21 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var emojiLabel: UILabel!
     
     @IBAction func buttonOneTapped(_ sender: Any) {
+        emojiLabel.isHidden = false
         emojiLabel.text = "🐈"
     }
     @IBAction func buttonTwoTapped(_ sender: Any) {
+        emojiLabel.isHidden = false
         emojiLabel.text = "🐕"
     }
     @IBAction func buttonThreeTapped(_ sender: Any) {
+        emojiLabel.isHidden = false
         emojiLabel.text = "👩‍🦲"
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        emojiLabel.isHidden = true
 
         // Do any additional setup after loading the view.
     }
